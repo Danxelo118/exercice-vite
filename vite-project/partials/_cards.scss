@@ -1,11 +1,12 @@
 @use "variables";
 
-.cards {
+.card {
+    background-color: variables.$primary;
     padding: 5px;
     margin: 5px;
 }
 
-.card__btn {
+&__btn {
     width: 100%;
     padding-top: 5px;
     border: none;

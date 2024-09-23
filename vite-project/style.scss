@@ -1,6 +1,10 @@
+body {
+ background-color: red;
+}
+
 @use 'partials/top-picks';
 @use 'partials/variables';
-@use 'partials/cards.scss';
+@use 'partials/cards';
 @use 'partials/mixins/text';
 
 :root {
