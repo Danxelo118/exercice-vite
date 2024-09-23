@@ -1,11 +1,8 @@
-body {
- background-color: red;
-}
-
 @use 'partials/top-picks';
 @use 'partials/variables';
 @use 'partials/cards';
 @use 'partials/mixins/text';
+
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;

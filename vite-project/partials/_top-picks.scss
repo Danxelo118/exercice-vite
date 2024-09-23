@@ -2,7 +2,9 @@
 
 .top-picks { 
   position: relative;
+  background-color: lighten(variables.$primary, 5%);
   padding: 50px; 
+  color: white;
 
   &__header {
     border-left: solid 5px variables.$primary;
@@ -16,6 +18,7 @@
   
   &__desc {
     opacity: 0.7;
+    
   }
   
   &__wrapper {
